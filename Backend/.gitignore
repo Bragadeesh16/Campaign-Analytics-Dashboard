@@ -1,0 +1,19 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+migrations/
+
+# Virtual environment
+venv/
+env/
+
+# Database files
+*.sqlite
+*.db
+
+# Log files
+*.log
+
+# Ignore data folders
+data/
+.env
