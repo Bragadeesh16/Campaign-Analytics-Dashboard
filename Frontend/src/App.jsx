@@ -15,11 +15,13 @@ const CompanyDataPage = () => {
   const filteredData =
     statusFilter === 'All'
       ? companyData
-      : companyData.filter((item) => item.status === statusFilter);
+      : companyData.filter((item) => item.Status === statusFilter);
+
+  console.log('Filtered Data:', filteredData);
 
   return (
     <div className="container">
-      <h1>Company Campaigns</h1>
+      <h1>Company Lists</h1>
 
       <div className="filter">
         <label htmlFor="statusFilter">Filter by status: </label>
